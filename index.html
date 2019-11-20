@@ -1,0 +1,40 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Osvaldo's Workshop</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="big green">
+			<div class="box3 red center-context" id="left">
+			<p class="board gone" id="ant">Sample Text</p>
+			</div>
+			<div class="box3 purple center-context" id="right">
+				<img src="images/blueb.png" class="restric-img-size board gone" id="cat"/>
+			</div>
+		</div>
+		<div class="big orange">
+			<div class="box1 red">
+				<div class="box2 light_blue center-context">
+					<img src="images/blueb.png" class="restric-img-size board" id="cat" onclick="switchOne()"/>
+				</div>
+				<div class="box2 white center-context">
+					<img src="images/cash.png" class="restric-img-size board" id="dog" onclick="switchTwo()"/>
+				</div>
+			</div>
+			<div class="box1 red">
+				<div class="box2 white center-context">
+					<img src="images/jazz2.png" class="restric-img-size board" onclick="switchThird()" id="fish"/>
+				</div>
+				<div class="box2 light_blue center-context">
+					<img src="images/hunger.png" class="restric-img-size board changecursor" onclick="switchFour()" id="bird"/>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+	
+</html>
