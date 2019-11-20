@@ -43,7 +43,9 @@ p {
   font-family: verdana;
   font-size: 22px;
   color: black;
-  overflow: auto;
+}
+.contain{
+	overflow: auto;
 }
 /*when you go over images they pop up giving a 3rd effect*/
 img:hover {
