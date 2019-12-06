@@ -30,3 +30,8 @@ function switchFour(){
 	a.src = "images/hunger.png";
 	g.innerHTML = "The Hunger piece is detected to my artist name. The color ways are blue and purple the reason for this is because purple symbolizes the void and blue is my favorite color pink was there to put in a pop up with a shine. The smile in the guy is just how I feel inside. The blocks outside are to show that life is simple and don't box yourself out of it."
 }
+function rest(){
+	a.classList.add("gone")
+	g.innerHTML = "Weclome please do enjoy the deisgns I have made. This site is a showcase of what I have created and what inspired me to do so."
+
+}
